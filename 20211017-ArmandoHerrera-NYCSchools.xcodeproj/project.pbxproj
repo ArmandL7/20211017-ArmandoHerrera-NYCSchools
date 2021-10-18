@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C4D770BB271DB5D500D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770BA271DB5D500D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsApp.swift */; };
-		C4D770BD271DB5D600D33D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770BC271DB5D500D33D51 /* ContentView.swift */; };
 		C4D770BF271DB5D800D33D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D770BE271DB5D800D33D51 /* Assets.xcassets */; };
 		C4D770C2271DB5D800D33D51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D770C1271DB5D800D33D51 /* Preview Assets.xcassets */; };
 		C4D770CC271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770CB271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsTests.swift */; };
 		C4D770D6271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770D5271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsUITests.swift */; };
 		C4D770D8271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770D7271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsUITestsLaunchTests.swift */; };
+		C4D770ED271DB67D00D33D51 /* SatResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770EA271DB67D00D33D51 /* SatResults.swift */; };
+		C4D770EE271DB67D00D33D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770EB271DB67D00D33D51 /* ContentView.swift */; };
+		C4D770EF271DB67D00D33D51 /* SatResultsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770EC271DB67D00D33D51 /* SatResultsUIView.swift */; };
+		C4D770F2271DB68500D33D51 /* SatResultsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770F0271DB68500D33D51 /* SatResultsStruct.swift */; };
+		C4D770F3271DB68500D33D51 /* SchoolStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D770F1271DB68500D33D51 /* SchoolStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		C4D770B7271DB5D500D33D51 /* 20211017-ArmandoHerrera-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20211017-ArmandoHerrera-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D770BA271DB5D500D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0211017_ArmandoHerrera_NYCSchoolsApp.swift; sourceTree = "<group>"; };
-		C4D770BC271DB5D500D33D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4D770BE271DB5D800D33D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D770C1271DB5D800D33D51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4D770C7271DB5D900D33D51 /* 20211017-ArmandoHerrera-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20211017-ArmandoHerrera-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		C4D770D1271DB5D900D33D51 /* 20211017-ArmandoHerrera-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20211017-ArmandoHerrera-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D770D5271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0211017_ArmandoHerrera_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		C4D770D7271DB5D900D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0211017_ArmandoHerrera_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4D770EA271DB67D00D33D51 /* SatResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatResults.swift; sourceTree = "<group>"; };
+		C4D770EB271DB67D00D33D51 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Exam2/20211710-ArmandoHerrera-NYCSchools/20211017-ArmandoHerrera-NYCSchools/Views/ContentView.swift"; sourceTree = "<group>"; };
+		C4D770EC271DB67D00D33D51 /* SatResultsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatResultsUIView.swift; sourceTree = "<group>"; };
+		C4D770F0271DB68500D33D51 /* SatResultsStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatResultsStruct.swift; sourceTree = "<group>"; };
+		C4D770F1271DB68500D33D51 /* SchoolStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				C4D770BA271DB5D500D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsApp.swift */,
-				C4D770BC271DB5D500D33D51 /* ContentView.swift */,
 				C4D770BE271DB5D800D33D51 /* Assets.xcassets */,
+				C4D770F0271DB68500D33D51 /* SatResultsStruct.swift */,
+				C4D770F1271DB68500D33D51 /* SchoolStruct.swift */,
+				C4D770EB271DB67D00D33D51 /* ContentView.swift */,
+				C4D770EA271DB67D00D33D51 /* SatResults.swift */,
+				C4D770EC271DB67D00D33D51 /* SatResultsUIView.swift */,
 				C4D770C0271DB5D800D33D51 /* Preview Content */,
 			);
 			path = "20211017-ArmandoHerrera-NYCSchools";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D770BD271DB5D600D33D51 /* ContentView.swift in Sources */,
+				C4D770EF271DB67D00D33D51 /* SatResultsUIView.swift in Sources */,
 				C4D770BB271DB5D500D33D51 /* _0211017_ArmandoHerrera_NYCSchoolsApp.swift in Sources */,
+				C4D770F3271DB68500D33D51 /* SchoolStruct.swift in Sources */,
+				C4D770F2271DB68500D33D51 /* SatResultsStruct.swift in Sources */,
+				C4D770ED271DB67D00D33D51 /* SatResults.swift in Sources */,
+				C4D770EE271DB67D00D33D51 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
